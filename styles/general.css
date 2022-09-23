@@ -1,0 +1,534 @@
+/* mobile phones */
+
+@media screen and (min-width:0px) and (max-width:700px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    a :active {
+        text-decoration: none;
+    }
+
+    .body {
+        overflow-x: hidden;
+        /* background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(../Images/bodyBG.jfif);
+        background-size: cover; */
+    }
+
+    .mainDiv {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgb(0, 0, 0, 0.75), rgb(0, 0, 0, 0.75)), url(../Images/BG.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        vertical-align: middle;
+    }
+
+    .topDiv {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        height: 70 px;
+        left: 0;
+        right: 0;
+        background-color: rgba(27, 27, 27, 0.978);
+        padding-bottom: 15px;
+        z-index: 100;
+    }
+
+    .topDiv a {
+        text-decoration: none;
+    }
+
+    h1 {
+        padding: 20px 0 0 12px;
+        font-size: 30px;
+        font-weight: 600;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        /* font-family: 'Noto Serif Georgian', serif; */
+        color: rgb(21, 255, 0);
+        background: transparent;
+    }
+
+    h1 span {
+        /* background-image: linear-gradient(to left, rgb(0, 69, 2), rgb(0, 130, 4)); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;*/
+        background: transparent;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(255, 0, 0);
+        position: fixed;
+        right: -150px;
+        top: 0;
+        bottom: 0;
+        width: 150px;
+        padding: 15px 5px 10px 15px;
+    }
+
+    nav a {
+        display: block;
+        color: white;
+        margin: 40px 0 15px 0;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    nav a:hover {}
+
+    nav a:active {}
+
+    .home {
+        padding-top: 40px;
+    }
+
+    #CloseImg {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        box-sizing: content-box;
+        padding: 15px;
+    }
+
+    #MenuImg {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+
+
+
+
+
+
+
+
+    /* Footer */
+
+    .footer {
+        display: flex;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 70px;
+        background-image: linear-gradient(to bottom, rgb(30, 30, 30), rgb(20, 20, 20), black);
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: papayawhip;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: 200;
+        line-height: 1.5;
+        letter-spacing: 1.5px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+/* laptops */
+
+@media screen and (min-width:700.02px) and (max-width:1400px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .body {
+        overflow-x: hidden;
+    }
+
+    .mainDiv {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgb(0, 0, 0, 0.75), rgb(0, 0, 0, 0.75)), url(../Images/BG.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        vertical-align: middle;
+    }
+
+    .topDiv {
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        height: 70 px;
+        left: 0;
+        right: 0;
+        background-color: rgba(27, 27, 27, 0.9);
+        z-index: 100;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .topDiv a {
+        text-decoration: none;
+    }
+
+    h1 {
+        margin: 10px 30px;
+        font-size: 1.5rem;
+        font-weight: 900;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(21, 255, 0);
+        min-width: max-content;
+    }
+
+    h1 span {
+        /* background-image: linear-gradient(to left, rgb(0, 69, 2), rgb(0, 130, 4)); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+        background: transparent;
+    }
+
+    nav {
+        width: 100%;
+        margin-right: 15px;
+        background-color: none;
+        display: flex;
+        justify-content: right;
+    }
+
+    nav a {
+        margin: 20px;
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-size: 0.8rem;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    nav a:hover,
+    nav a:focus {
+        color: greenyellow;
+        scale: 1.1;
+    }
+
+    nav a:active {
+        color: greenyellow;
+        scale: 1.1;
+    }
+
+    #CloseImg {
+        display: none;
+    }
+
+    #MenuImg {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+    /* Footer */
+
+    .footer {
+        display: flex;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: max-content;
+        padding: 20px 0;
+        background-image: linear-gradient(to bottom, rgb(30, 30, 30), rgb(20, 20, 20), black);
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: papayawhip;
+        font-family:  serif, 'Times New Roman', Times, serif;
+        font-size: 1.1rem;
+        font-weight: 200;
+    }
+
+}
+
+
+
+
+
+/* large laptops */
+
+@media screen and (min-width:1400.02px) and (max-width:2000px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .body {
+        overflow-x: hidden;
+    }
+
+    .mainDiv {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgb(0, 0, 0, 0.75), rgb(0, 0, 0, 0.75)), url(../Images/BG.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        vertical-align: middle;
+    }
+
+    .topDiv {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(27, 27, 27, 0.9);
+        z-index: 100;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .topDiv a {
+        text-decoration: none;
+    }
+
+    h1 {
+        margin: 20px 50px;
+        font-size: 3rem;
+        font-weight: 900;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(21, 255, 0);
+        min-width: max-content;
+    }
+
+    h1 span {
+        /* background-image: linear-gradient(to left, rgb(0, 69, 2), rgb(0, 130, 4)); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+        background: transparent;
+    }
+
+    nav {
+        width: 100%;
+        margin-right: 25px;
+        background-color: none;
+        display: flex;
+        justify-content: right;
+    }
+
+    nav a {
+        margin: 20px;
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-size: 1.15rem;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    nav a:hover,
+    nav a:focus {
+        color: greenyellow;
+        scale: 1.1;
+    }
+
+    nav a:active {
+        color: greenyellow;
+        scale: 1.1;
+    }
+
+    #CloseImg {
+        display: none;
+    }
+
+    #MenuImg {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+    /* Footer */
+
+    .footer {
+        display: flex;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: max-content;
+        padding: 20px 0;
+        background-image: linear-gradient(to bottom, rgb(30, 30, 30), rgb(20, 20, 20), black);
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: papayawhip;
+        font-family: serif, 'Times New Roman', Times, serif;
+        font-size: 1.1rem;
+        font-weight: 200;
+    }
+
+}
+
+
+
+
+
+
+/* 4K */
+
+@media screen and (min-width:2000.02px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .body {
+        overflow-x: hidden;
+    }
+
+    .mainDiv {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgb(0, 0, 0, 0.75), rgb(0, 0, 0, 0.75)), url(../Images/BG.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        vertical-align: middle;
+    }
+
+    .topDiv {
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        height: 70 px;
+        left: 0;
+        right: 0;
+        background-color: rgba(27, 27, 27, 0.9);
+        z-index: 100;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .topDiv a {
+        text-decoration: none;
+    }
+
+    h1 {
+        margin: 30px 50px;
+        font-size: 3rem;
+        font-weight: 900;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(21, 255, 0);
+        min-width: max-content;
+    }
+
+    h1 span {
+        /* background-image: linear-gradient(to left, rgb(0, 69, 2), rgb(0, 130, 4)); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+        background: transparent;
+    }
+
+    nav {
+        width: 100%;
+        margin-right: 30px;
+        background-color: none;
+        display: flex;
+        justify-content: right;
+    }
+
+    nav a {
+        margin: 30px 50px;
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-size: 2rem;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    nav a:hover,
+    nav a:focus {
+        color: greenyellow;
+        scale: 1.1;
+    }
+
+    nav a:active {
+        color: greenyellow;
+        scale: 1.1;
+    }
+
+    #CloseImg {
+        display: none;
+    }
+
+    #MenuImg {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+    /* Footer */
+
+    .footer {
+        display: flex;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 30px;
+        height: max-content;
+        background-image: linear-gradient(to bottom, rgb(30, 30, 30), rgb(20, 20, 20), black);
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: papayawhip;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        font-weight: 200;
+        line-height: 1.5;
+        letter-spacing: 0.1rem;
+    }
+
+}

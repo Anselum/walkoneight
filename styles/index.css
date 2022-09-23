@@ -1,0 +1,666 @@
+@media screen and (min-width:0px) and (max-width:500px) {
+    .heroDiv {
+        width: 100%;
+        height: 100%;
+        padding: 0 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .heroDiv p {
+        text-align: center;
+        padding: 60% 20px 0;
+        flex: 1;
+    }
+
+    .line1 {
+        font-size: 22px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(255, 255, 255);
+    }
+
+    .line2 {
+        margin-top: 15px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        color: rgb(157, 255, 175);
+    }
+
+    .btDiv {
+        height: 100%;
+        display: flex;
+    }
+
+    .knowmore {
+        margin: auto;
+        border: 1px groove gray;
+        border-radius: 10px;
+        padding: 8px 25px;
+        background: rgba(255, 255, 255, 0.077);
+        max-height: 50px;
+    }
+
+    .knowmore:hover {
+        border: 1px groove rgb(72, 72, 72);
+        background-image: linear-gradient(45deg, rgb(119, 255, 107), rgb(116, 255, 46));
+    }
+
+    .knowmore a {
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: none;
+        color: black;
+    }
+
+
+    /* Essay */
+
+    .exercise,
+    .benifts {
+        padding: 5px 8px 15px 8px;
+        border: 5px groove gray;
+        border-radius: 15px;
+        background-color: rgb(247, 247, 247);
+        text-align: justify;
+        margin: 10% 3%;
+    }
+
+    .essay {
+        display: grid;
+        padding: 10px;
+        padding-top: 70px;
+        row-gap: 40px;
+        margin-bottom: 50px;
+    }
+
+    .essayHeading {
+        margin: 15px 0;
+        font-size: 25px;
+        font-weight: 600;
+        display: inline-block;
+        background-image: linear-gradient(-45deg, rgb(87, 87, 87), black, black);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .essayPara {
+        font-size: 16px;
+    }
+
+    .ImgFigure {
+        width: 70%;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .detailImg {
+        width: 100%;
+        border: 5px groove gray;
+        border-radius: 15px;
+    }
+
+    .ImgFigure figcaption {
+        font-size: 18px;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+}
+
+
+
+
+
+
+
+/* Media query for 500+ screen */
+
+
+@media screen and (min-width:500.2px) and (max-width:1000px) {
+    .heroDiv {
+        width: 100%;
+        height: 100vh;
+        padding: 0 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .heroDiv p {
+        max-width: 300px;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .line1 {
+        font-size: 1.4rem;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(255, 255, 255);
+    }
+
+    .line2 {
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        color: rgb(126, 255, 150);
+    }
+
+    .knowmore {
+        height: max-content;
+        border: 1px groove gray;
+        border-radius: 10px;
+        padding: 8px 25px;
+        background: rgba(255, 255, 255, 0.184);
+    }
+
+    .knowmore:hover {
+        border: 1px groove rgb(72, 72, 72);
+        background-image: linear-gradient(45deg, rgb(119, 255, 107), rgb(116, 255, 46));
+    }
+
+    .knowmore a {
+        font-size: 1rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Essay */
+
+
+    .essay {
+        row-gap: 40px;
+        margin: 90px 5%;
+        display: flex;
+        height: max-content;
+    }
+
+
+    .essayHeading {
+        margin: 15px 0;
+        font-size: 1.2rem;
+        font-weight: 600;
+        display: inline-block;
+        background-image: linear-gradient(-45deg, rgb(87, 87, 87), black, black);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .essayPara {
+        font-size: 0.8rem;
+    }
+
+    .paraDiv {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* box 1 2*/
+    .exercise,
+    .benifts {
+        flex: 1;
+        max-height: 50%;
+        max-width: 90%;
+        margin: 5% 0 0;
+        padding: 5px 8px 15px 8px;
+        border: 5px groove gray;
+        border-radius: 15px;
+        background-color: rgb(247, 247, 247);
+        text-align: justify;
+    }
+
+
+    /* box 2 */
+    .ImgFigure {
+        height: 100%;
+        width: 30%;
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+        flex: 0.5;
+    }
+
+    .detailImg {
+        width: 100%;
+        border: 5px groove gray;
+        border-radius: 15px;
+    }
+
+    .ImgFigure figcaption {
+        font-size: 1rem;
+        font-weight: 600;
+        font-style: italic;
+    }
+}
+
+/* Media query for larger screen */
+
+
+
+
+@media screen and (min-width:1000.2px) and (max-width:1300px) {
+    .heroDiv {
+        width: 100%;
+        height: 100vh;
+        padding: 0 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .heroDiv p {
+        max-width: 500px;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .line1 {
+        font-size: 1.7rem;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(255, 255, 255);
+    }
+
+    .line2 {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        color: rgb(126, 255, 150);
+    }
+
+    .knowmore {
+        height: max-content;
+        border: 1px groove gray;
+        border-radius: 10px;
+        padding: 8px 25px;
+        background: rgba(255, 255, 255, 0.184);
+    }
+
+    .knowmore:hover {
+        border: 1px groove rgb(72, 72, 72);
+        background-image: linear-gradient(45deg, rgb(119, 255, 107), rgb(116, 255, 46));
+    }
+
+    .knowmore a {
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Essay */
+
+
+    .essay {
+        row-gap: 40px;
+        margin: 90px 5%;
+        display: flex;
+        height: max-content;
+    }
+
+
+    .essayHeading {
+        margin: 15px 0;
+        font-size: 2rem;
+        font-weight: 600;
+        display: inline-block;
+        background-image: linear-gradient(-45deg, rgb(87, 87, 87), black, black);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .essayPara {
+        font-size: 1.2rem;
+    }
+
+    .paraDiv {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* box 1 2*/
+    .exercise,
+    .benifts {
+        flex: 1;
+        max-height: 50%;
+        max-width: 90%;
+        margin: 5%;
+        padding: 5px 8px 15px 8px;
+        border: 5px groove gray;
+        border-radius: 15px;
+        background-color: rgb(247, 247, 247);
+        text-align: justify;
+    }
+
+
+    /* box 2 */
+    .ImgFigure {
+        height: 100%;
+        width: 30%;
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+        flex: 0.5;
+    }
+
+    .detailImg {
+        width: 100%;
+        border: 5px groove gray;
+        border-radius: 15px;
+    }
+
+    .ImgFigure figcaption {
+        font-size: 18px;
+        font-weight: 600;
+        font-style: italic;
+    }
+}
+
+
+
+/* Media query for large laptop screen */
+
+
+@media screen and (min-width:1300.02px) and (max-width:2000px) {
+    .heroDiv {
+        width: 100%;
+        height: 100vh;
+        padding: 0 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .heroDiv p {
+        max-width: 500px;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .line1 {
+        font-size: 1.7rem;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(255, 255, 255);
+    }
+
+    .line2 {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        color: rgb(126, 255, 150);
+    }
+
+    .knowmore {
+        height: max-content;
+        border: 1px groove gray;
+        border-radius: 10px;
+        padding: 8px 25px;
+        background: rgba(255, 255, 255, 0.184);
+    }
+
+    .knowmore:hover {
+        border: 1px groove rgb(72, 72, 72);
+        background-image: linear-gradient(45deg, rgb(119, 255, 107), rgb(116, 255, 46));
+    }
+
+    .knowmore a {
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Essay */
+
+
+    .essay {
+        row-gap: 40px;
+        margin: 90px 5%;
+        display: flex;
+        height: max-content;
+    }
+
+
+    .essayHeading {
+        margin: 15px 0;
+        font-size: 2rem;
+        font-weight: 600;
+        display: inline-block;
+        background-image: linear-gradient(-45deg, rgb(87, 87, 87), black, black);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .essayPara {
+        font-size: 1.2rem;
+    }
+
+    .paraDiv {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* box 1 2*/
+    .exercise,
+    .benifts {
+        flex: 1;
+        max-height: 50%;
+        max-width: 90%;
+        margin: 5%;
+        padding: 5px 8px 15px 8px;
+        border: 5px groove gray;
+        border-radius: 15px;
+        background-color: rgb(247, 247, 247);
+        text-align: justify;
+    }
+
+
+    /* box 2 */
+    .ImgFigure {
+        height: 100%;
+        width: 30%;
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+        flex: 0.5;
+    }
+
+    .detailImg {
+        width: 100%;
+        border: 5px groove gray;
+        border-radius: 15px;
+    }
+
+    .ImgFigure figcaption {
+        font-size: 18px;
+        font-weight: 600;
+        font-style: italic;
+    }
+}
+
+
+
+
+/* Media query for 4K screens */
+
+
+@media screen and (min-width:2000.02px) {
+    .heroDiv {
+        width: 100%;
+        height: 100vh;
+        padding: 0 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .heroDiv p {
+        max-width: 1000px;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .line1 {
+        font-size: 4.1rem;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(255, 255, 255);
+    }
+
+    .line2 {
+        font-size: 2.3rem;
+        letter-spacing: 1px;
+        color: rgb(126, 255, 150);
+    }
+
+    .knowmore {
+        height: max-content;
+        border: 1px groove gray;
+        border-radius: 10%;
+        padding: 12px 35px;
+        background: rgba(255, 255, 255, 0.184);
+    }
+
+    .knowmore:hover {
+        border: 1px groove rgb(72, 72, 72);
+        background-image: linear-gradient(45deg, rgb(119, 255, 107), rgb(116, 255, 46));
+    }
+
+    .knowmore a {
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Essay */
+
+
+    .essay {
+        row-gap: 40px;
+        margin: 90px 5%;
+        display: flex;
+        height: max-content;
+    }
+
+
+    .essayHeading {
+        margin: 15px 0;
+        font-size: 3.5rem;
+        font-weight: 600;
+        display: inline-block;
+        background-image: linear-gradient(-45deg, rgb(87, 87, 87), black, black);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .essayPara {
+        font-size: 2.4rem;
+    }
+
+    .paraDiv {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* box 1 2*/
+    .exercise,
+    .benifts {
+        flex: 1;
+        max-height: 50%;
+        max-width: 90%;
+        margin: 5%;
+        padding: 10px 35px 15px;
+        border: 5px groove gray;
+        border-radius: 15px;
+        background-color: rgb(247, 247, 247);
+        text-align: justify;
+    }
+
+
+    /* box 2 */
+    .ImgFigure {
+        height: 100%;
+        width: 30%;
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+        flex: 0.5;
+    }
+
+    .detailImg {
+        width: 100%;
+        border: 5px groove gray;
+        border-radius: 15px;
+    }
+
+    .ImgFigure figcaption {
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+}
