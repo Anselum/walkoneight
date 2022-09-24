@@ -15,6 +15,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@400;600;700&display=swap"
         rel="stylesheet">
     <title>Contact</title>
+    <script src="./script.js"></script>
+    <script src="./index.js"></script>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("65PpgZObNqrqMsUNn");
+        })();
+    </script>
+
+
 </head>
 
 <body class="body">
@@ -43,21 +55,22 @@
 
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1283.596352198292!2d77.73931883649438!3d8.71016297596368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1663226592298!5m2!1sen!2sin"
-            style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
         </iframe>
 
         <div class="formDiv">
-            <fieldset>
-                <form method="post">
-                    Name : <span class="asterik">*</span><input type="text" name="formName" id="formName" required><br>
-                    Email : <span class="asterik">*</span><input type="email" name="formEmail" id="formEmail" required><br>
-                    Phone : <span class="asterik">*</span><input type="phone" name="formPhone" id="formPhone" required><br>
-                    Message : <span class="asterik">*</span><br><textarea name="formMessage" id="formMessage" cols="30" rows="5"
-                        required></textarea><br>
-                    <button type="submit" id="submit">Submit</button>
-                </form>
-            </fieldset>
+            <section>
+                <div>
+                    Name : <span class="asterik">*</span><input type="text" id="name" required><br>
+                    Email : <span class="asterik">*</span><input type="email" id="email"
+                        required><br>
+                    Phone : <span class="asterik">*</span><input type="phone" id="phone"
+                        required><br>
+                    Message : <span class="asterik">*</span><br><textarea id="message" cols="30"
+                        rows="5" required></textarea><br>
+                    <button type="submit" id="submit" onclick="sendMail()">Submit</button>
+                </div>
+            </section>
 
             <div class="contactDiv">
                 <ul>Contact us at:</ul>
@@ -65,7 +78,8 @@
                 <li>&nbsp;&nbsp;&nbsp;&nbsp;Phone : <a href="tel:9385933182">9385933182</a></li>
                 <li>&nbsp;&nbsp;&nbsp;&nbsp;Email : <a href="mailto:walkoneight@gmail.com">walkoneight@gmail.com</a>
                 </li>
-                <li>&nbsp;&nbsp;&nbsp;&nbsp;Website : <a href="https://anselum.github.io/walkoneight_test1/">walkoneight.com</a></li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;Website : <a
+                        href="https://anselum.github.io/walkoneight/">walkoneight.com</a></li>
             </div>
 
         </div>
@@ -77,7 +91,6 @@
     </div>
 
 
-    <script src="script.js"></script>
 </body>
 
 </html>

@@ -55,7 +55,7 @@
         grid-template-rows: 1fr 0.5fr;
     }
 
-    .formDiv fieldset {
+    .formDiv section {
         margin: auto;
         padding: 30px;
         border-radius: 20px;
@@ -68,33 +68,33 @@
         font-size: 0.8rem;
     }
 
-    fieldset input {
+    section input {
         min-width: 180px;
         min-height: 25px;
         font-size: 0.8rem;
         padding: 0 5px;
     }
 
-    fieldset textarea {
+    section textarea {
         min-width: 180px;
         min-height: 25px;
         font-size: 0.8rem;
         padding: 5px 5px;
     }
 
-    #formName {
+    #name {
         margin: 0 0 10px 20%;
     }
 
-    #formEmail {
+    #email {
         margin: 10px 0 20px 20%;
     }
 
-    #formPhone {
+    #phone {
         margin: 10px 0 20px 20%;
     }
 
-    #formMessage {
+    #message {
         margin: 5px 0 30px;
     }
 
@@ -190,7 +190,7 @@
         border-radius: 15px;
     }
 
-    .formDiv fieldset {
+    .formDiv section {
         margin: auto;
         padding: 30px;
         border-radius: 20px;
@@ -203,33 +203,33 @@
         font-size: 0.8rem;
     }
 
-    fieldset input {
+    section input {
         min-width: 180px;
         min-height: 25px;
         font-size: 0.8rem;
         padding: 0 5px;
     }
 
-    fieldset textarea {
+    section textarea {
         min-width: 180px;
         min-height: 25px;
         font-size: 0.8rem;
         padding: 5px 5px;
     }
 
-    #formName {
+    #name {
         margin: 0 0 10px 20%;
     }
 
-    #formEmail {
+    #email {
         margin: 10px 0 20px 20%;
     }
 
-    #formPhone {
+    #phone {
         margin: 10px 0 20px 20%;
     }
 
-    #formMessage {
+    #message {
         margin: 5px 0 30px;
     }
 
@@ -325,7 +325,7 @@
         border-radius: 15px;
     }
 
-    .formDiv fieldset {
+    .formDiv section {
         max-width: 400px;
         margin: auto;
         padding: 50px 40px 30px;
@@ -339,33 +339,33 @@
         font-size: 1.06rem;
     }
 
-    fieldset input {
+    section input {
         min-width: 180px;
         min-height: 25px;
         font-size: 0.8rem;
         padding: 0 5px;
     }
 
-    fieldset textarea {
+    section textarea {
         min-width: 180px;
         min-height: 25px;
         font-size: 0.8rem;
         padding: 5px 5px;
     }
 
-    #formName {
+    #name {
         margin: 0 0 10px;
     }
 
-    #formEmail {
+    #email {
         margin: 10px 0 20px
     }
 
-    #formPhone {
+    #phone {
         margin: 10px 0 20px
     }
 
-    #formMessage {
+    #message {
         margin: 5px 0 30px;
     }
 
@@ -463,7 +463,7 @@
         border-radius: 15px;
     }
 
-    .formDiv fieldset {
+    .formDiv section {
         max-width: 500px;
         margin: auto;
         padding: 50px 50px 30px;
@@ -477,33 +477,33 @@
         font-size: 1.1rem;
     }
 
-    fieldset input {
+    section input {
         min-width: 180px;
         min-height: 25px;
         font-size: 0.8rem;
         padding: 0 5px;
     }
 
-    fieldset textarea {
+    section textarea {
         min-width: 180px;
         min-height: 25px;
         font-size: 0.8rem;
         padding: 5px 5px;
     }
 
-    #formName {
+    #name {
         margin: 0 0 10px;
     }
 
-    #formEmail {
+    #email {
         margin: 10px 0 20px
     }
 
-    #formPhone {
+    #phone {
         margin: 10px 0 20px
     }
 
-    #formMessage {
+    #message {
         margin: 5px 0 30px;
     }
 
@@ -603,7 +603,7 @@
         border-radius: 15px;
     }
 
-    .formDiv fieldset {
+    .formDiv section {
         max-width: 1200px;
         margin: auto;
         padding: 60px 60px 30px;
@@ -617,33 +617,33 @@
         font-size: 2rem;
     }
 
-    fieldset input {
+    section input {
         min-width: 180px;
         min-height: 25px;
         font-size: 2rem;
         padding: 0 5px;
     }
 
-    fieldset textarea {
+    section textarea {
         min-width: 180px;
         min-height: 25px;
         font-size: 2rem;
         padding: 5px 5px;
     }
 
-    #formName {
+    #name {
         margin: 0 0 30px;
     }
 
-    #formEmail {
+    #email {
         margin: 10px 0 40px
     }
 
-    #formPhone {
+    #phone {
         margin: 10px 0 40px
     }
 
-    #formMessage {
+    #message {
         margin: 5px 0 50px;
     }
 
